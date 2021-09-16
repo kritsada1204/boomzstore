@@ -138,16 +138,11 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
-<<<<<<< Updated upstream
 
-/*---offer--*/
-=======
->>>>>>> Stashed changes
 .offer{
     background: radial-gradient(#fff,#ffd6d6);
     margin-top: 80px;
     padding: 30px 0;
-<<<<<<< Updated upstream
 }
 .col-2 .offer-img{
     padding: 50px;
@@ -180,7 +175,7 @@ small{
 }
 .col-3 p{
     font-size: 12px;
-    max-resolution: 10px 0;
+    /*max-resolution: 10px 0; */
     color: #777;
 }
 .testimonial .col-3 h3{
@@ -331,21 +326,14 @@ select:focus{
     color:#fff;
 
 /*media query for less than 600 screen size*/
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
     .row{
         text-align: center;
 
     }
-    .col-2, .col-3, .col-4{
+    
+    .col-2, .col-3, .col-4 {
         flex-basis: 100%;
     }
-=======
 
-}
-.col-2 .offer-img{
-    padding: 50px;
-}
-small{
-    color:#555;
->>>>>>> Stashed changes
 }
